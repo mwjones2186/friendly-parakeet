@@ -20,7 +20,7 @@ function generatePassword() {
   // need to check if the password if under 8 characters or over 128 character
 
   if (passwordlegnth < 8 || passwordlegnth > 128) {
-    alert('Your password need to be between 8 and 120 charecters');
+    alert('Your password need to be between 8 and 128 charecters');
     return null;
   }
 
